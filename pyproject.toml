@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "infer-perf-lab"
+version = "0.1.0"
+description = "Single-GPU vLLM benchmarks, quantization recipes, and Triton microbenchmarks"
+requires-python = ">=3.10"
+dependencies = ["aiohttp>=3.10,<4"]
+
+[project.optional-dependencies]
+data = ["requests>=2.31", "transformers>=4.51", "pyarrow>=15"]
+dev = ["black>=24"]
+
+[project.scripts]
+inferbench = "inferbench.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["inferbench*"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]

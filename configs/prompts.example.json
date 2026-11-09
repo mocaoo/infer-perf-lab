@@ -1,0 +1,78 @@
+{
+  "synthetic": true,
+  "note": "Transport/CLI fixture only; not a model-quality or real-workload benchmark.",
+  "rows": [
+    {
+      "id": "chat_tune_0",
+      "task": "chat",
+      "split": "tune",
+      "token_ids": [
+        1,
+        2
+      ],
+      "prompt_sha256": "3a316d6d3226f84c1e46e4447fa8d5fd800bff4a1bc6498152523cd4a602b69b"
+    },
+    {
+      "id": "chat_heldout_1",
+      "task": "chat",
+      "split": "heldout",
+      "token_ids": [
+        3,
+        4
+      ],
+      "prompt_sha256": "21fa2eb01b2eefd6e31fb4fe52def02b955395e2af26ed303e29853f406f1751"
+    },
+    {
+      "id": "chat_heldout_2",
+      "task": "chat",
+      "split": "heldout",
+      "token_ids": [
+        5,
+        6
+      ],
+      "prompt_sha256": "8050091b38c975da61899fd28c8662b45737f872b4aa4707215e687a2b9507f6"
+    },
+    {
+      "id": "short_tune_3",
+      "task": "short",
+      "split": "tune",
+      "token_ids": [
+        7,
+        8
+      ],
+      "prompt_sha256": "6f9ca1f75055df1459c3517574216c33fccef8a5cbd2d1b0415bc38a3bd5d927"
+    },
+    {
+      "id": "short_heldout_4",
+      "task": "short",
+      "split": "heldout",
+      "token_ids": [
+        9,
+        10
+      ],
+      "prompt_sha256": "0f9bc434b90d4df394921742144fc26187d3392e695414f27f1e745834582631"
+    },
+    {
+      "id": "short_heldout_5",
+      "task": "short",
+      "split": "heldout",
+      "token_ids": [
+        11,
+        12
+      ],
+      "prompt_sha256": "011ab7251ca87673135aadc99ef2a874df0ae2725bae7e4dde642984e0f77f83"
+    },
+    {
+      "id": "long_heldout_6",
+      "task": "long",
+      "split": "heldout",
+      "token_ids": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "prompt_sha256": "8729065fb0e58db80a2b8fde220aa3f01cb1ee0f57b56f12aae628a6d6b3ee66"
+    }
+  ]
+}

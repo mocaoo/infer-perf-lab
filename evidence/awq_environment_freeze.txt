@@ -1,0 +1,10 @@
+autoawq==0.2.9
+datasets==3.6.0
+dill==0.3.8
+fsspec==2025.3.0
+huggingface-hub==0.34.4
+multiprocess==0.70.19
+pandas==3.1.0
+tokenizers==0.21.4
+transformers==4.51.3
+xxhash==4.0.2

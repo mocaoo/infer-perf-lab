@@ -1,0 +1,20 @@
+{
+  "model": "${INFERBENCH_MODELS}/Qwen3-8B",
+  "served_model": "Qwen3-8B",
+  "port": 8023,
+  "attention_backend": "TRITON_ATTN",
+  "kv_cache_memory_bytes": null,
+  "max_model_len": 8192,
+  "max_num_batched_tokens": 2048,
+  "max_num_seqs": 64,
+  "gpu_memory_utilization": 0.8,
+  "seed": 20261103,
+  "env": {
+    "VLLM_USE_V2_MODEL_RUNNER": "1",
+    "VLLM_WSL2_ENABLE_PIN_MEMORY": "1",
+    "OMP_NUM_THREADS": "4",
+    "TOKENIZERS_PARALLELISM": "false",
+    "HF_HUB_OFFLINE": "1",
+    "TRANSFORMERS_OFFLINE": "1"
+  }
+}

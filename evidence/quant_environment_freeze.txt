@@ -1,0 +1,14 @@
+datasets==5.1.0
+Defuser==0.0.29
+Device-SMI==0.5.7
+hf_transfer==0.1.9
+kernels==0.18.1
+LogBar==0.4.15
+maturin==1.16.0
+pyarrow==26.0.1
+PyPcre==0.6.4
+setuptools==80.9.0
+threadpoolctl==3.7.0
+TokeNicer==0.0.14
+torchao==0.18.0
+wheel==0.48.0

@@ -1,0 +1,116 @@
+{
+  "description": "Source fingerprints before organization; destination files include documented edits. Original files were not modified.",
+  "files": [
+    {
+      "source_area": "ai_infra_md",
+      "source_file": "overnight_core.py",
+      "source_sha256": "25b7f54b514569884ec093babdca026243c5db57c7e10c89efeb53c573dd94f7",
+      "destination": "inferbench/core.py"
+    },
+    {
+      "source_area": "ai_infra_md",
+      "source_file": "prepare_self_quant.py",
+      "source_sha256": "5f09a9ff0246583296dbb6471478db8bbe278b85b0431c6508e8b82b2920531a",
+      "destination": "experiments/quantization/prepare_self_quant.py"
+    },
+    {
+      "source_area": "ai_infra_md",
+      "source_file": "quantize_own_awq.py",
+      "source_sha256": "21393bf828ef58338d282012c064689f593d8878692fc9c7bb38be1bdf1075a6",
+      "destination": "experiments/quantization/quantize_own_awq.py"
+    },
+    {
+      "source_area": "ai_infra_md",
+      "source_file": "quantize_own_checkpoint.py",
+      "source_sha256": "996ffc6842ec702d7929beb8276d33f212cf8531fa0a5e147a47bc1fe384f1a3",
+      "destination": "experiments/quantization/quantize_own_checkpoint.py"
+    },
+    {
+      "source_area": "ai_infra_md",
+      "source_file": "calibrate_overnight_kv.py",
+      "source_sha256": "729a9d54add4ee88e5a96438a09208a9afcc2b5aa664f1064a9faab0fb756fda",
+      "destination": "experiments/quantization/calibrate_overnight_kv.py"
+    },
+    {
+      "source_area": "ai_infra_md",
+      "source_file": "kv_scale_audit.py",
+      "source_sha256": "7f07af5e19b3c769a9e33d3262fbc3d4ab71d6319fe71ddaf904a0b5586ad280",
+      "destination": "experiments/quantization/kv_scale_audit.py"
+    },
+    {
+      "source_area": "ai_infra_md",
+      "source_file": "spec_nvtx_extension.py",
+      "source_sha256": "c82965e5d00c16de3d698cee628932367ad48ebd64543ae6c595a8057b608df5",
+      "destination": "experiments/profiling/spec_nvtx_extension.py"
+    },
+    {
+      "source_area": "ai_infra_md",
+      "source_file": "summarize_overnight_nsight.py",
+      "source_sha256": "2ef30d273682ae158ab99d00487511f49f3e6f1ca91656d161558309bcfce2ee",
+      "destination": "experiments/profiling/summarize_overnight_nsight.py"
+    },
+    {
+      "source_area": "infer-perf (WSL)",
+      "source_file": "RMSNorm_test.py",
+      "source_sha256": "0c20ca012d7370664de1b4d72254042f174e254767f1fb5701ccd2c6e38814c5",
+      "destination": "experiments/kernels/RMSNorm_test.py"
+    },
+    {
+      "source_area": "infer-perf (WSL)",
+      "source_file": "a01_online_softmax.py",
+      "source_sha256": "7faa8f2ba04b9fff3ac4b81a02a74070454e4bde5906b366d12e2842ccb5b812",
+      "destination": "experiments/kernels/a01_online_softmax.py"
+    },
+    {
+      "source_area": "infer-perf (WSL)",
+      "source_file": "a02_flash_attention.py",
+      "source_sha256": "11b95a22c28b33ab61f6a004bc597574bbc2dbe4d7c49839728ac45058542d9d",
+      "destination": "experiments/kernels/a02_flash_attention.py"
+    },
+    {
+      "source_area": "infer-perf (WSL)",
+      "source_file": "a02b_splitk.py",
+      "source_sha256": "e04a6a4ae8be20b2442614970f109eb745942687b15cbe4f1c30c6e21e435365",
+      "destination": "experiments/kernels/a02b_splitk.py"
+    },
+    {
+      "source_area": "infer-perf (WSL)",
+      "source_file": "a03_decode_fp8.py",
+      "source_sha256": "aa5dff00a7cb6310e5191936c56aec2bc81b467c0ed17b15e2d9ed57544e07a4",
+      "destination": "experiments/kernels/a03_decode_fp8.py"
+    },
+    {
+      "source_area": "infer-perf (WSL)",
+      "source_file": "a03b_matrix.py",
+      "source_sha256": "b44ec68a1fa58f7e13bc94f643301ae19d44bb2e9ef3ec14ef883f344cb56f34",
+      "destination": "experiments/kernels/a03b_matrix.py"
+    },
+    {
+      "source_area": "infer-perf (WSL)",
+      "source_file": "w08_kv_fp8_quant.py",
+      "source_sha256": "2357e4b33dd26b999394504a7ef203085bb39d8d532298c87a2c8c424c7f5dac",
+      "destination": "experiments/kernels/w08_kv_fp8_quant.py"
+    },
+    {
+      "source_area": "ai_infra_md",
+      "source_file": "overnight_assets.py",
+      "source_sha256": "8360ff8a3f91fe716b97e08e980e8a69e5146bf5d72a731a797ea99f3ed73673",
+      "destination": "experiments/prepare_tasks.py",
+      "scope": "Selected functions adapted to explicit inputs; historical orchestration omitted."
+    },
+    {
+      "source_area": "ai_infra_md",
+      "source_file": "overnight_quality.py",
+      "source_sha256": "637103ec6582e4fb68c23950f991165c079f6ae8ec8902cb60081035a2f12e44",
+      "destination": "inferbench/quality.py",
+      "scope": "Selected functions adapted to explicit inputs; historical orchestration omitted."
+    },
+    {
+      "source_area": "ai_infra_md",
+      "source_file": "overnight_quality.py",
+      "source_sha256": "637103ec6582e4fb68c23950f991165c079f6ae8ec8902cb60081035a2f12e44",
+      "destination": "inferbench/perplexity.py",
+      "scope": "Teacher-forced NLL function, explicit CLI inputs."
+    }
+  ]
+}

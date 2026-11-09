@@ -1,0 +1,274 @@
+{
+  "rows": [
+    {
+      "concurrency": 8,
+      "bf16_tpot_ms": 25.27795234901949,
+      "fp8_tpot_ms": 23.78851329117647,
+      "bf16_tpot_p99_ms": 27.968515560774613,
+      "fp8_tpot_p99_ms": 26.63149040450003,
+      "bf16_tpot_p99_starts": [
+        27.52443155468628,
+        28.412599566862944
+      ],
+      "fp8_tpot_p99_starts": [
+        25.864611490941147,
+        27.398369318058915
+      ],
+      "bf16_tpot_p99_rounds": [
+        [
+          27.22966662376468,
+          27.81919648560788
+        ],
+        [
+          28.226263382745437,
+          28.598935750980452
+        ]
+      ],
+      "fp8_tpot_p99_rounds": [
+        [
+          25.725142236078394,
+          26.0040807458039
+        ],
+        [
+          27.311051682313753,
+          27.485686953804077
+        ]
+      ],
+      "tpot_speedup": 1.0629229026096776,
+      "tpot_speedup_starts": [
+        1.0779834039241294,
+        1.0478624012952258
+      ],
+      "bf16_tokens_s": 267.97277776529097,
+      "fp8_tokens_s": 283.2495548374036,
+      "throughput_ratio": 1.0569185853707586,
+      "throughput_ratio_starts": [
+        1.07112445848417,
+        1.0427127122573472
+      ],
+      "bf16_ttft_ms": 1155.3957403750132,
+      "fp8_ttft_ms": 1129.910534000004,
+      "bf16_diagnostics": [
+        {
+          "preemptions": 0.0,
+          "kv_peak": 0.49816597890875747,
+          "running_peak": 8.0,
+          "waiting_peak": 6.0
+        },
+        {
+          "preemptions": 0.0,
+          "kv_peak": 0.49862448418156813,
+          "running_peak": 8.0,
+          "waiting_peak": 7.0
+        }
+      ],
+      "fp8_diagnostics": [
+        {
+          "preemptions": 0.0,
+          "kv_peak": 0.24939662107803706,
+          "running_peak": 8.0,
+          "waiting_peak": 6.0
+        },
+        {
+          "preemptions": 0.0,
+          "kv_peak": 0.24974140903344444,
+          "running_peak": 8.0,
+          "waiting_peak": 7.0
+        }
+      ]
+    },
+    {
+      "concurrency": 32,
+      "bf16_tpot_ms": 44.32690168480374,
+      "fp8_tpot_ms": 70.8393806960784,
+      "bf16_tpot_p99_ms": 46.65494515357846,
+      "fp8_tpot_p99_ms": 73.44399641932364,
+      "bf16_tpot_p99_starts": [
+        46.59240820888233,
+        46.71748209827459
+      ],
+      "fp8_tpot_p99_starts": [
+        72.89328018245095,
+        73.99471265619631
+      ],
+      "bf16_tpot_p99_rounds": [
+        [
+          45.740612274627495,
+          47.44420414313718
+        ],
+        [
+          46.9427161375295,
+          46.492248059019666
+        ]
+      ],
+      "fp8_tpot_p99_rounds": [
+        [
+          72.18992492199996,
+          73.59663544290193
+        ],
+        [
+          73.90764172541203,
+          74.08178358698059
+        ]
+      ],
+      "tpot_speedup": 0.6257399962227339,
+      "tpot_speedup_starts": [
+        0.6260431843547508,
+        0.6254368080907169
+      ],
+      "bf16_tokens_s": 330.23716482692066,
+      "fp8_tokens_s": 413.49743884597876,
+      "throughput_ratio": 1.252111593001655,
+      "throughput_ratio_starts": [
+        1.2538926743046712,
+        1.2503305116986392
+      ],
+      "bf16_ttft_ms": 13258.968021124992,
+      "fp8_ttft_ms": 1211.3675072499746,
+      "bf16_diagnostics": [
+        {
+          "preemptions": 0.0,
+          "kv_peak": 0.9935809261806511,
+          "running_peak": 16.0,
+          "waiting_peak": 30.0
+        },
+        {
+          "preemptions": 0.0,
+          "kv_peak": 0.9944979367262724,
+          "running_peak": 16.0,
+          "waiting_peak": 30.0
+        }
+      ],
+      "fp8_diagnostics": [
+        {
+          "preemptions": 0.0,
+          "kv_peak": 0.9906907252039996,
+          "running_peak": 32.0,
+          "waiting_peak": 30.0
+        },
+        {
+          "preemptions": 0.0,
+          "kv_peak": 0.9943684633950121,
+          "running_peak": 32.0,
+          "waiting_peak": 31.0
+        }
+      ]
+    },
+    {
+      "concurrency": 64,
+      "bf16_tpot_ms": 44.35710620049014,
+      "fp8_tpot_ms": 74.18192667401965,
+      "bf16_tpot_p99_ms": 46.31775526382357,
+      "fp8_tpot_p99_ms": 81.85485242370592,
+      "bf16_tpot_p99_starts": [
+        46.06197931354902,
+        46.573531214098125
+      ],
+      "fp8_tpot_p99_starts": [
+        82.14426468674505,
+        81.56544016066678
+      ],
+      "bf16_tpot_p99_rounds": [
+        [
+          46.475255370705845,
+          45.64870325639219
+        ],
+        [
+          46.575725922195836,
+          46.57133650600042
+        ]
+      ],
+      "fp8_tpot_p99_rounds": [
+        [
+          82.11109320137257,
+          82.17743617211752
+        ],
+        [
+          82.69422423113737,
+          80.4366560901962
+        ]
+      ],
+      "tpot_speedup": 0.5979452285647697,
+      "tpot_speedup_starts": [
+        0.5941199478909128,
+        0.6017705092386265
+      ],
+      "bf16_tokens_s": 332.13817443230243,
+      "fp8_tokens_s": 409.8639197908054,
+      "throughput_ratio": 1.2340963560127824,
+      "throughput_ratio_starts": [
+        1.223619390744104,
+        1.244573321281461
+      ],
+      "bf16_ttft_ms": 37756.330531499974,
+      "fp8_ttft_ms": 20879.86257262503,
+      "bf16_diagnostics": [
+        {
+          "preemptions": 0.0,
+          "kv_peak": 0.9954149472718936,
+          "running_peak": 16.0,
+          "waiting_peak": 62.0
+        },
+        {
+          "preemptions": 0.0,
+          "kv_peak": 0.9954149472718936,
+          "running_peak": 16.0,
+          "waiting_peak": 62.0
+        }
+      ],
+      "fp8_diagnostics": [
+        {
+          "preemptions": 6.0,
+          "kv_peak": 0.9998850706815309,
+          "running_peak": 33.0,
+          "waiting_peak": 62.0
+        },
+        {
+          "preemptions": 6.0,
+          "kv_peak": 0.9977014136306172,
+          "running_peak": 33.0,
+          "waiting_peak": 62.0
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "restart": 1,
+      "arm": "bf16_triton",
+      "kv_slots": 69808,
+      "model_load_gib": 15.27,
+      "kv_gib": 9.59
+    },
+    {
+      "restart": 1,
+      "arm": "fp8_kv",
+      "kv_slots": 139232,
+      "model_load_gib": 15.3,
+      "kv_gib": 9.56
+    },
+    {
+      "restart": 2,
+      "arm": "bf16_triton",
+      "kv_slots": 69808,
+      "model_load_gib": 15.27,
+      "kv_gib": 9.59
+    },
+    {
+      "restart": 2,
+      "arm": "fp8_kv",
+      "kv_slots": 139232,
+      "model_load_gib": 15.3,
+      "kv_gib": 9.56
+    }
+  ],
+  "acceptance": {
+    "passed": true,
+    "cases": 12,
+    "requests": 1792,
+    "generated_tokens": 458752
+  },
+  "tpot_p99_aggregation": "Request-level TPOT P99 by linear interpolation within each round, then median across two rounds per start, then median across two starts; not pooled P99 and not token-level ITL P99.",
+  "source_sha256": "ee616f82303ebd06cdf98be2adeda505baee0e8aef0eb95c04d6308849bacffe",
+  "note": "Historical 2026-11-08 results copied from saved analysis, not rerun with this refactor."
+}

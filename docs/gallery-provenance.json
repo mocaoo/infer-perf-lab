@@ -1,0 +1,106 @@
+{
+  "captured_date": "2026-11-09",
+  "html_source_name": "实验图文.html",
+  "html_source_sha256": "41028dd183b1dce03e0ddb49f03c921b3c828b5592395ef04907aa3a8c324d64",
+  "markdown_source_name": "实验图文.md",
+  "markdown_source_sha256": "92cef44e1519f6a4058288dafa93e50bc9361499396ece5f73724366aeb2a445",
+  "note": "Historical experiment results. Published HTML adds navigation/provenance text; Markdown rewrites image references to repository-relative assets. Original data and figures are unchanged.",
+  "images": [
+    {
+      "caption": "投机解码并发对照",
+      "source_name": "01_投机解码四档并发.png",
+      "destination": "assets/experiment-01.png",
+      "sha256": "8ebfcf0508655eaa1cdab95b3803b01f25a0b306f8669eba5ca5bf3ea237144d"
+    },
+    {
+      "caption": "EAGLE-3 投机长度",
+      "source_name": "02_eagle3_任务扫描.png",
+      "destination": "assets/experiment-02.png",
+      "sha256": "6bfb0c07559b6301e37f2157f273efb5ccebce7f3a78e8f500ec03b661b8f058"
+    },
+    {
+      "caption": "DFlash 投机长度",
+      "source_name": "03_dflash_任务扫描.png",
+      "destination": "assets/experiment-03.png",
+      "sha256": "4ee12d329d8dd7e4cb378b4d181c74ba142a20e2b633057278b9b80fab950489"
+    },
+    {
+      "caption": "DSpark 投机长度",
+      "source_name": "04_dspark_任务扫描.png",
+      "destination": "assets/experiment-04.png",
+      "sha256": "4c439cac92a4029ad892536c2bee3fc18408ab87b887e2193b471a4e16b2a1a4"
+    },
+    {
+      "caption": "EAGLE-3 WikiText",
+      "source_name": "05_eagle3_WikiText.png",
+      "destination": "assets/experiment-05.png",
+      "sha256": "0f32b20c895c6fa16b278aaa5d84633d34dd8c392216a409abb2443284672b99"
+    },
+    {
+      "caption": "DFlash WikiText",
+      "source_name": "06_dflash_WikiText.png",
+      "destination": "assets/experiment-06.png",
+      "sha256": "3248a7126aeed682be02676356dc6a2527ed89729875780b1f960e55003909a4"
+    },
+    {
+      "caption": "DSpark WikiText",
+      "source_name": "07_dspark_WikiText.png",
+      "destination": "assets/experiment-07.png",
+      "sha256": "7f1981278feed00f7f351c49c98b80384d7d866bda5133268f7903c5682c84cf"
+    },
+    {
+      "caption": "DFlash NVTX 关联分段",
+      "source_name": "A_NVTX关联分段.png",
+      "destination": "assets/experiment-08.png",
+      "sha256": "493aa5010d502982c5f614b0638040b0f012dcee2e3a46ceece2e821f6f213ea"
+    },
+    {
+      "caption": "逐 token 输出一致性",
+      "source_name": "B_逐token一致性审计.png",
+      "destination": "assets/experiment-09.png",
+      "sha256": "92f09156f911e319fdc70bb16e3fcc9abae8b643a87cb953f30befcbfa6128f3"
+    },
+    {
+      "caption": "首次分歧 logprob",
+      "source_name": "C_首次分歧logprob.png",
+      "destination": "assets/experiment-10.png",
+      "sha256": "cbedbdb7c4b1a19c641ce1a5417f9168ce78304b67c337d7c0a3ceb23f49fffd"
+    },
+    {
+      "caption": "量化性能",
+      "source_name": "08_量化性能.png",
+      "destination": "assets/experiment-11.png",
+      "sha256": "1bde3299e3aa7ec1526990ad38b1497724b00c988628bc09a9b6e35874b777df"
+    },
+    {
+      "caption": "量化显存与容量",
+      "source_name": "09_量化显存与容量.png",
+      "destination": "assets/experiment-12.png",
+      "sha256": "f1b78e937c0846713a1c1d3734d0056e2ffcb73c8ac8666df240323040c7b8b4"
+    },
+    {
+      "caption": "校准预算与质量",
+      "source_name": "10_校准预算与质量.png",
+      "destination": "assets/experiment-13.png",
+      "sha256": "43e3ac16a0d4069ce242d1a9cedeec062b1e626be3eac44fc9ff5d00d7001fa9"
+    },
+    {
+      "caption": "原生 FP8 KV",
+      "source_name": "11_原生FP8KV.png",
+      "destination": "assets/experiment-14.png",
+      "sha256": "6541d1503b1263c47bd660dc551d5bcdf0d0e59c17ae8a8fb90f30fa26f6471c"
+    },
+    {
+      "caption": "Chunked Prefill",
+      "source_name": "12_ChunkedPrefill.png",
+      "destination": "assets/experiment-15.png",
+      "sha256": "ef8b11b81f122660f83be49202b16caefd9bd0715de99cdf7bff0331a2a22897"
+    },
+    {
+      "caption": "Split-K",
+      "source_name": "13_SplitK.png",
+      "destination": "assets/experiment-16.png",
+      "sha256": "e65a516c05e8f94c85c1385e2843a1867428b299741bcb72801f804876fd47ba"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+results/
+models/
+data/
+*.safetensors
+*.pt
+*.bin
+*.nsys-rep
+*.sqlite
+.env
