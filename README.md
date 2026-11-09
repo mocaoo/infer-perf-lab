@@ -2,6 +2,8 @@
 
 单卡 LLM 推理性能实验仓库：把 vLLM 服务压测、投机解码、权重与 KV 量化、Chunked Prefill 混合负载，以及 Triton 算子微基准放进一条可检查的实验链路。
 
+围绕“如何测准推理性能、定位瓶颈并验证优化收益”，本项目实现基于 asyncio / SSE 的并发压测客户端，支持 vLLM 服务进程管理、实验配置与输入冻结、token / usage 校验及服务端计数器对账，自动保存请求记录并生成 JSON / Markdown 报告。仓库同时提供量化校准脚本、Triton 算子实现、无 GPU 模拟示例与 CPU CI 检查，便于检查测量链路，并在具备相应模型与 GPU 环境时开展对照实验。
+
 项目来自 RTX 5090 D / Qwen3-8B 的实际实验。重点是明确的配置、原始请求记录和有边界的结论。当前版本完成代码整理与 CPU 链路验证，整理后的 GPU 入口尚未重新跑完性能回归。
 
 **实验结果：[在线实验报告](https://mocaoo.github.io/infer-perf-lab/) · [仓库图文版](docs/experiments.md) · [独立 HTML 文件](docs/index.html)**
