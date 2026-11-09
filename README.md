@@ -4,7 +4,7 @@
 
 项目来自 RTX 5090 D / Qwen3-8B 的实际实验。重点是明确的配置、原始请求记录和有边界的结论。当前版本完成代码整理与 CPU 链路验证，整理后的 GPU 入口尚未重新跑完性能回归。
 
-**实验结果：[图文报告](docs/experiments.md) · [独立 HTML 页面](docs/index.html)**
+**实验结果：[在线实验报告](https://mocaoo.github.io/infer-perf-lab/) · [仓库图文版](docs/experiments.md) · [独立 HTML 文件](docs/index.html)**
 
 报告包含投机解码、量化、原生 FP8 KV、Chunked Prefill 和 Split-K 的历史实测与限制说明。Markdown 可在仓库内阅读；HTML 可下载后直接打开，或通过 GitHub Pages 展示。发布步骤见 [GitHub 发布说明](docs/publishing.md)。
 

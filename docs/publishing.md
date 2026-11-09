@@ -21,6 +21,6 @@ git push -u origin main
 
 `docs/index.html` 是可独立打开的单文件，16 张图以 SVG data URI 内嵌。`docs/experiments.md` 使用仓库相对 PNG 路径，可在 GitHub 文件页直接阅读。
 
-需要网页预览时，在仓库 Settings → Pages 中选择从分支部署，选择 `main` 和 `/docs`，保存后使用 GitHub 返回的站点地址。以仓库实际部署状态及返回地址为准。
+本仓库已配置 GitHub Pages，从 `main` 分支的 `/docs` 部署到 <https://mocaoo.github.io/infer-perf-lab/>。更新推送后，在 Actions 中确认 Pages 部署成功；以实际部署状态为准。
 
 后续更新图文时，同时更新 `docs/index.html`、`docs/experiments.md`、`docs/assets/` 和 `docs/gallery-provenance.json`，保留结果日期及实验版本范围。
